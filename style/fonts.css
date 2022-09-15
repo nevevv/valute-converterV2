@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Raleway Bold';
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway Regular';
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'RedHat Bold';
+    src: url(../fonts/RedHatDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url(../fonts/Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
