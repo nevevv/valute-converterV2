@@ -53,11 +53,11 @@
                                     </span>
                                     </p>
                             </div>
-                            <form class="header__content-form">
+                            <form action="mail.php" class="header__content-form">
                                 <div class="header__form-block">
                                     <p class="header__form-text">Вы отправляете</p>
                                     <div class="header__content-input">
-                                        <input type="number" id="usd"  placeholder="0">
+                                        <input type="number" id="usd" name="users__money"  placeholder="0">
                                         <div class="header__valute">
                                             <img src="img/usa.png" alt="">
                                             <span>USD</span>
@@ -67,7 +67,7 @@
                                 <div class="header__form-block">
                                     <p class="header__form-text">Получатель получит</p>
                                     <div class="header__content-input">
-                                        <input type="number" id="result"  placeholder="0" disabled>
+                                        <input type="number" id="result" name="my__money"  placeholder="0" disabled>
                                         <div class="header__valute">
                                             <img src="img/russia.png" alt="">
                                             <span>RUS</span>
@@ -77,19 +77,19 @@
                                 <div class="header__form-block">
                                     <p class="header__form-text">Ваше имя</p>
                                     <div class="header__content-input">
-                                        <input type="text"  placeholder="Введите имя">
+                                        <input type="text"  placeholder="Введите имя" name="username">
                                     </div>
                                 </div>
                                 <div class="header__form-block">
                                     <p class="header__form-text">Ваш номер телефона</p>
                                     <div class="header__content-input">
-                                        <input type="number"  placeholder="+7 8 10 00000000">
+                                        <input type="number" name="user__phone"  placeholder="+7 8 10 00000000">
                                     </div>
                                 </div>
                                 <div class="header__form-block">
                                     <p class="header__form-text">Ваш e-mail</p>
                                     <div class="header__content-input">
-                                        <input type="email"  placeholder="example@gmail.com">
+                                        <input type="email" name="user__mail"  placeholder="example@gmail.com">
                                        
                                     </div>
                                 </div>
