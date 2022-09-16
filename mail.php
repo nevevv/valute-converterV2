@@ -1,6 +1,8 @@
-<?php
 
-/* users__money my__money username user__phone user__mail */
+<?php
+require_once('phpmailer/PHPMailerAutoload.php');
+$mail = new PHPMailer;
+$mail->Charset = 'utf-8';
 $userName = $_POST['username']
 $usersMoney = $_POST['users__money']
 $myMoney = $_POST['my__money']
@@ -24,3 +26,4 @@ $mail->isHTML(true)
 $mail->Subject = 'Заявка с сайта';
 $mail->Body = `$username /n $usersMoney /n $myMoney /n $userPhone /n $userMail`;
 $mail->AltBody = '';
+?>
